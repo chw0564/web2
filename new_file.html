@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<script type='text/javascript' src='http://tb.53kf.com/kf.php?arg=itany&style=1'></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<title>南京网博IT软件编程开发学习培训机构哪家好?南京最好的Java,安卓,软件测试工程师培训班</title>
+		<meta name="description" content="{dede:global.cfg_description/}" />
+		<meta name="keywords" content="南京IT培训,南京软件开发培训,{dede:global.cfg_keywords/}" />
+		<base target="_blank" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="text/css" rel="stylesheet" href="css/touch.css">
+		<link type="text/css" rel="stylesheet" href="css/banner.css">
+		<link type="text/css" rel="stylesheet" href="css/layout.css">
+
+		<script type="text/javascript" src="js/iscoll.js"></script>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript " src="js/jquery.tabs.js"></script>
+		<script type="text/javascript " src="js/jquery.lazyload.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				$("img[original]").lazyload({
+					placeholder: "images/color3.gif"
+				});
+
+				$('.demo1').Tabs({
+					event: 'click'
+				});
+				$('.demo2').Tabs({
+					event: 'click'
+				});
+
+				//部分区域图片延迟加载
+				function lazyloadForPart(container) {
+					container.find('img').each(function() {
+						var original = $(this).attr("original");
+						if(original) {
+							$(this).attr('src', original).removeAttr('original');
+						}
+					});
+				}
+			});
+		</script>
+
+		<style>
+			.slidesjs-pagination {
+				margin: 6px 0 0;
+				float: right;
+				list-style: none;
+			}
+			
+			.slidesjs-pagination li {
+				float: left;
+				margin: 0 1px;
+			}
+			
+			.slidesjs-pagination li a {
+				display: block;
+				width: 13px;
+				height: 0;
+				padding-top: 13px;
+				background-image: url(images/pagination.png);
+				background-position: 0 0;
+				float: left;
+				overflow: hidden;
+			}
+			
+			.slidesjs-pagination li a.active,
+			.slidesjs-pagination li a:hover.active {
+				background-position: 0 -13px
+			}
+			
+			.slidesjs-pagination li a:hover {
+				background-position: 0 -26px
+			}
+			
+			#slides a:link,
+			#slides a:visited {
+				color: #333
+			}
+			
+			#slides a:hover,
+			#slides a:active {
+				color: #9e2020
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="contain">
+
+			{dede:include filename="head.htm"/}
+
+			<div>
+				<article>
+					<!--scroll-->
+					<div class="scroll relative">
+						<div class="scroll_box" id="scroll_img">
+							<ul class="scroll_wrap">
+								<li>
+									<a href="http://www7.53kf.com/webCompany.php?arg=itany&style=1"><img src="images/webcom.jpg" width="100%" /></a>
+								</li>
+								<li>
+									<a href="http://www7.53kf.com/webCompany.php?arg=itany&style=1"><img src="images/bannercom1.jpg" width="100%" /></a>
+								</li>
+								<li>
+									<a href="http://www7.53kf.com/webCompany.php?arg=itany&style=1"><img src="images/wappad.png" width="100%" /></a>
+								</li>
+								<li>
+									<a href="http://www7.53kf.com/webCompany.php?arg=itany&style=1"><img src="images/android.jpg" width="100%" /></a>
+								</li>
+								<li>
+									<a href="http://www7.53kf.com/webCompany.php?arg=itany&style=1"><img src="images/web.jpg" width="100%" /></a>
+								</li>
+
+							</ul>
+						</div>
+						<span class="scroll_position_bg opacity6"></span>
+						<ul class="scroll_position" id='scroll_position'>
+							<li class="on">
+								<a href="javascript:void(0);">1</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">2</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">3</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">4</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);">5</a>
+							</li>
+						</ul>
+					</div>
+					<!--scroll-->
+				</article>
+			</div>
+			<script src='js/hhSwipe.js'></script>
+			<script>
+				var slider = Swipe(document.getElementById('scroll_img'), {
+					auto: 3000,
+					continuous: true,
+					callback: function(pos) {
+						var i = bullets.length;
+						while(i--) {
+							bullets[i].className = ' ';
+						}
+						bullets[pos].className = 'on';
+					}
+				});
+				var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
+				$(function() {
+					$('.scroll_position_bg').css({
+						width: $('#scroll_position').width()
+					});
+				});
+			</script>
+			<div style="clear:both;"></div>
+
+			<div class="search">
+				##form action="/plus/search.php" method="post" name="formsearch">
+				<div class="sea">
+					<input name="q" type="text" class="text" value="请输入您要搜索的内容" onfocus="if(this.value==this.defaultValue){this.value='';this.style.color='#666666';};" onblur="if(this.value==''){this.value=this.defaultValue;this.style.color='#666666';}" style="color: rgb(102, 102, 102);">
+				</div>
+				<div class="seaBtn">
+					<input name="" type="image" src="images/screech.gif">
+				</div>
+				##/form>
+
+			</div>
+
+			<div class="box demo1">
+				<ul class="tab_menu">
+					<li class="current">网博动态</li>
+					<li>高薪就业</li>
+
+				</ul>
+				<div class="tab_box">
+					<div>
+						<ul>
+							{dede:arclist typeid='19' titlelen='30' row='6'}
+							<li><strong><img src="/images/dian.jpg"/></strong>
+								<a href="[field:arcurl/]" title="">[field:title/]</a>
+							</li>
+							{/dede:arclist}
+						</ul>
+					</div>
+					<div class="hide">
+						<ul>
+							{dede:arclist typeid='3' titlelen='30' row='6'}
+							<li><strong><img src="/images/dian.jpg"/></strong>
+								<a href="[field:arcurl/]" title="">[field:title/]</a>
+							</li>
+							{/dede:arclist}
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<!--demo2 end-->
+
+			<div class="kecheng">
+				<div class="kechengb"><span>课程大纲</span></div>
+				<ul>
+					<li>
+						<a href="/a/kec/web/95.html" target="_blank"> <img src="images/webwap.jpg"></a>
+					</li>
+					<li>
+						<a href="/a/kec/java/87.html" target="_blank"> <img src="images/java.png"></a>
+					</li>
+					<li>
+						<a href="/a/kec/android/88.html" target="_blank"><img src="images/android.png"> </a>
+					</li>
+					<li>
+						<a href="/a/kec/test/89.html" target="_blank"><img src="images/test.png"></a>
+					</li>
+					<li>
+						<a href="/a/kec/c/90.html" target="_blank"><img src="images/c++.png"></a>
+					</li>
+					<li>
+						<a href="/a/kec/dashuju/93.html" target="_blank"><img src="images/dashuju.png"></a>
+					</li>
+					<li>
+						<a href="/a/kec/ios/94.html" target="_blank"><img src="images/ios.png"> </a>
+					</li>
+					<li>
+						<a href="/a/kec/net/92.html" target="_blank"><img src="images/net.png"></a>
+					</li>
+					<li>
+						<a href="/a/kec/php/91.html" target="_blank"><img src="images/php.png"></a>
+					</li>
+					<li class="last">
+						<a href="/a/kec/" target="_blank"><img src="images/more.png"></a>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="box demo2">
+				<ul class="tab_menu">
+					<li class="current">名企热招</li>
+					<li>合作院校</li>
+
+				</ul>
+				<div class="tab_box">
+					<div>
+						<ul>
+
+							{dede:arclist typeid='2' titlelen='30' row='6'}
+							<li><strong><img src="/images/dian.jpg"/></strong>
+								<a href="[field:arcurl/]" title="">[field:title/]
+								</a>
+							</li>
+							{/dede:arclist}
+						</ul>
+					</div>
+					<div class="hide">
+						<ul>
+							{dede:arclist typeid='1' titlelen='30' row='6'}
+							<li><strong><img src="/images/dian.jpg"/></strong>
+								<a href="[field:arcurl/]" title="">[field:title/]
+								</a>
+							</li>
+							{/dede:arclist}
+
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<!--demo2 end-->
+
+			<div class="kecheng">
+				<div class="kechengb"><span>网博名师</span></div>
+				<div class="anliall">
+					<div class="dingwei">
+						<div class="anli" id="rapper">
+							<div class="scr" style="padding-left:0px;">
+								<ul>
+									<li>
+										<a href="/a/wbms/101.html"><img src="images/tea.jpg" width="113" height="107">
+
+											<p class="wenzi">汤小洋</p>
+										</a>
+									</li>
+									<li>
+										<a href="/a/wbms/102.html"><img src="images/tsu.jpg" width="113" height="107">
+
+											<p class="wenzi">李连宇</p>
+										</a>
+									</li>
+									<li>
+										<a href="/a/wbms/103.html"><img src="images/the.jpg" width="113" height="107">
+
+											<p class="wenzi">邱焘</p>
+										</a>
+									</li>
+									<li>
+										<a href="/a/wbms/104.html"><img src="images/tyang.jpg" width="113" height="107">
+
+											<p class="wenzi">崔译</p>
+										</a>
+									</li>
+									<li>
+										<a href="/a/wbms/105.html"><img src="images/tqiu.jpg" width="113" height="107">
+
+											<p class="wenzi">石小俊</p>
+										</a>
+									</li>
+
+									<li>
+										<a href="/a/wbms/106.html"><img src="images/tpeng.jpg" width="113" height="107">
+
+											<p class="wenzi">于枫</p>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				{dede:include filename="footer.htm"/}
+
+			</div>
+
+	</body>
+
+</html>

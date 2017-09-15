@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>点点滴滴</title>
+		<link rel="stylesheet" type="text/css" href="bootstarp/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="swiper/css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstarp/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="swiper/js/swiper-3.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!-- header start -->
+		<div class="navbar navbar-default">
+			<div class="container">
+				<!-- logo start -->
+				<div class="navbar-header">
+					<a class="navbar-brand logo-style" href="/">
+						<img class="brand-img" src="img/logo.png" alt="点点滴滴">
+					</a>
+				</div>
+				<!-- logo end -->
+				<!-- navbar start -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">专题</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Dropdown <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle user-active" data-toggle="dropdown" role="button">
+								<img class="img-circle" src="img/user.jpeg" />
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">
+										<i class="glyphicon glyphicon-edit"></i> 写游记
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="glyphicon glyphicon-cog"></i> 设置
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="glyphicon glyphicon-off"></i> 退出
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- navbar end -->
+			</div>
+		</div>
+		<!-- header end -->
+		<div class="container-fluid">
+			<div class="swiper-container">
+			  	<div class="swiper-wrapper">
+				    <div class="swiper-slide">
+				    	<img src="img/swiperImg/show01.jpeg"/>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="img/swiperImg/show02.jpeg"/>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="img/swiperImg/show03.jpeg"/>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="img/swiperImg/show04.jpeg"/>
+				    </div>
+			  	</div>
+			  	<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		
+		<script>
+			new Swiper('.swiper-container',{
+				autoplay:2000,
+				loop:true,
+				pagination : '.swiper-pagination',
+				paginationBulletRender: function (swiper, index, className) {
+			      	return '<span class="' + className + '">'
+			      	+'<img src="img/swiperImg/show01-min.jpg"/>'
+			      	+'</span>';
+			  	}
+			});
+		</script>
+	</body>
+
+</html>
