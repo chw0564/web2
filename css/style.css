@@ -1,5 +1,10 @@
+@font-face {
+	font-family:'langqian';
+	src: url('../fonts/MFLangQian_Noncommercial-Regular.ttf');
+}
 body{
     font-family: Arial,"Lucida Grande","Microsoft Yahei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,"PingFang SC",STHeiti;
+	/*font-family: 'langqian';*/
 }
 .logo-style{
 	padding: 0px 20px 0px 0px;
@@ -51,6 +56,7 @@ body{
 }
 .clear-bottom{
 	margin-bottom: 0px;
+	border: none;
 }
 .clear-padding{
 	padding-left: 0px;
@@ -294,4 +300,12 @@ body{
 .add-padding-bottom{
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+}
+.classify-css{
+    font-size: 30px;
+    font-family: langqian;
+}
+.zuozhe-css{
+	font-size: 18px;
+    font-family: langqian;
 }
