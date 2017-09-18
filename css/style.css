@@ -61,10 +61,10 @@ body{
 .clear-padding{
 	padding-left: 0px;
 	padding-right: 0px;
-	height: 450px;
+	/*height: 450px;*/
 }
 .clear-padding .swiper-slide > img{
-	height: 450px;
+	/*height: 450px;*/
 	width: 100%;
 }
 .swiper-pagination-bullet-active img{
