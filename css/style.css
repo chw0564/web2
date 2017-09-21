@@ -116,7 +116,12 @@ body{
 	font-size: 30px;
     padding: 20px 0px;
 }
-
+.show-title .title-info{
+    margin: 0 20px 15px;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 1px 2px 2px rgba(0,0,0,1);
+}
 .img-rounded{
 	box-shadow: 0 1px 3px rgba(0,0,0,.9);
 }
@@ -520,4 +525,112 @@ body{
 .mod-publish .item-place input {
     width: 50%;
 }
-
+.jieban .jieban-title{
+	padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.jieban .jieban-info{
+	font-size: 18px;
+	color: #666;
+}
+.jieban .jieban-info li{
+	padding-bottom: 14px;
+}
+.jieban .jieban-detail{
+	text-indent:30px;
+	font-size: 16px;
+    line-height: 2em;
+}
+.jieban .user{
+	/*margin: 25px 0;*/
+    line-height: 20px;
+    display: inline-block;
+}
+.jieban .user .avatar{
+	margin-right: 6px;
+}
+.jieban .user .avatar >img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.jieban .user .name{
+	color: #ff7200;
+}
+.panel-style-heading{
+    margin-bottom: 25px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px rgba(0,0,0,.08), 0 0 3px rgba(0,0,0,0.05);
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    font-size: 20px;
+}
+.panel-style-heading em{
+	font-style: normal;
+    font-size: 24px;
+    color: #ff8a00;
+}
+.jieban-add-user{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 0px 20px;
+}
+.jieban-add-user li{
+	padding: 10px 10px;
+}
+.jieban-add-user img{
+	width: 60px;
+	border-radius: 50%;
+}
+.user-message li{
+	margin-bottom: 20px;
+}
+.user-message img{
+	width: 48px;
+	border-radius: 50%;
+}
+.user-message span{
+	margin-left: 4px;
+	color: #ff8a00;
+}
+.user-message .message-date{
+    float: right;
+    display: inline-block;
+    line-height: 48px;
+    padding-right: 10px;
+    color: #999;
+}
+.user-message .user-message-back{
+	background-color: #efefef;
+	border-radius: 24px 0 0 24px;
+	margin-bottom: 6px;
+}
+.user-message .user-message-msg{
+	margin-left: 48px;
+	font-size: 12px;
+    line-height: 2em;
+    color: #666666;
+}
+.youji-content{
+	/*text-indent:30px;*/
+	font-size: 16px;
+    line-height: 2em;
+}
+.youji-content img{
+	width: 100%;
+	border-radius: 4px;
+}
+.rep-message{
+	font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid;
+    color: #ff9d00;
+}
